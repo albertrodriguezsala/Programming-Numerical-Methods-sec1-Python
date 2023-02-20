@@ -1,4 +1,8 @@
-# Lecture Notes: Programming for economics 1st part---econ10106, the University of Edinburgh.
+ Programming for Economics, 1st part---econ10106, the University of Edinburgh.
+ 
+Undergraduate course on programming and numerical methods for economics. All this part of the course is taught in Python.
+ 
+ ## Syllabus
  ### Lecture 1: Introduction to Programming
  ### Lecture 2: Fundamentals of Programming
  ### Lecture 3: Data Manipulation and Data Analysis
