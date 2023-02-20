@@ -10,7 +10,8 @@
  ## Acknowledgments:
 These lecture notes greatly benefited from the Quantecon site, NumEconCopenhagen course, lecture notes from Raül Santaeulàlia-Llopis, and lecture notes from Michael Creel. All errors are mine. Any feedback will be greatly appreciated.
 
-## Problem sets: Problem sets in .pdf and with their solutions in a python notebook. Only available for a short period while the course is taking place. Outside of this period, the files can be shared upon request.
+## Problem sets:
+Problem sets in .pdf and with their solutions in a python notebook. Only available for a short period while the course is taking place. Outside of this period, the files can be shared upon request.
 
 ## Author:
 Albert Rodriguez-Sala
