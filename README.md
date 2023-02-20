@@ -11,12 +11,12 @@ Undergraduate course on programming and numerical methods for economics. All thi
  
  The material for each lecture consists of a set of slides in .pdf and accompanying code in .py.
  
- ## Acknowledgments:
+ ## Acknowledgments
 These lecture notes greatly benefited from the Quantecon site, NumEconCopenhagen course, lecture notes from Raül Santaeulàlia-Llopis, and lecture notes from Michael Creel. All errors are mine. Any feedback will be greatly appreciated.
 
-## Problem sets:
+## Problem Sets
 Problem sets in .pdf and with their solutions in a python notebook. Only available for a short period while the course is taking place. Outside of this period, the files can be shared upon request.
 
-## Author:
+## Author
 Albert Rodriguez-Sala
 albert.rodriguez@ed.ac.uk
