@@ -1,4 +1,4 @@
- Programming for Economics, 1st part---econ10106, the University of Edinburgh.
+# Programming for Economics, 1st part---econ10106, the University of Edinburgh.
  
 Undergraduate course on programming and numerical methods for economics. All this part of the course is taught in Python.
  
