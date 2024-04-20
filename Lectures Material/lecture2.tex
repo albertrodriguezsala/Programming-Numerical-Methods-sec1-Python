@@ -1,0 +1,158 @@
+\documentclass[10pt,aspectratio=169,xcolor=x11names,compress,dvipsnames]{beamer}
+
+\definecolor{myblue}{rgb}{0.19,0.25,0.41}
+
+\usetheme[progressbar=frametitle]{metropolis}
+
+\useoutertheme{metropolis}
+\useinnertheme{metropolis}
+\setbeamercolor{background canvas}{bg=white}
+
+%\usecolortheme[named=myblue]{structure}
+\setbeamercolor{frametitle}{bg=myblue}
+
+\definecolor{myred}{rgb}{0.82, 0.1, 0.26}
+\setbeamercolor{progress bar}{fg=myred}
+
+ \usepackage[dvipsnames]{xcolor}
+% for graphs
+\usepackage[demo]{graphicx}
+\usepackage{subfig}
+\usepackage{comment} 
+
+%Package for tables
+\usepackage[section]{placeins}
+\usepackage{float}
+\usepackage{multirow}
+%\newcommand{\textbf}[1]{\textnormal{\textbf{#1}}}
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[para,online,flushleft]{threeparttable}
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+ 
+\usepackage[cache=false]{minted}
+
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+\newtheorem*{exercise}{Exercise}
+
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+
+
+\csname toclevel@#2\endcsname
+\title[]{Lecture 2: Fundamentals of Programming \\ Programming for Economics---ECNM10106}
+\author{Albert Rodriguez-Sala \& Jacob  Adenbaum \\
+School of Economics, The University of Edinburgh }
+\date{Winter 2023}
+
+\begin{document}
+
+
+
+%-----------------------------------------------------------------Qa
+
+    \maketitle
+
+
+\begin{frame}{This class}
+ \tableofcontents 
+\end{frame}  
+
+
+\begin{frame}{Basic synax in Python}
+
+\begin{itemize}
+    \item each line in a Python script is a\textbf{ statement}. Unless broken with $\setminus$ or in lists.
+    \item Naming convention in Python. \textbf{Identifier} is the name given to our programming elements (variables, functions, classes, modules, packages, etc.). 
+    \begin{itemize}
+        \item An \textbf{identifier should start} with either an alphabet letter or an underscore (\_). 
+        \item After that, more than one alphabet letter (a-z or A-Z), digits (0-9), or underscores may be used to form an identifier. No other characters are allowed.
+        \item Identifiers in Python are \textbf{case sensitive}: variables $list_1$ and $List_1$ are different.
+        
+        
+    \end{itemize}
+    \item \textbf{Display Output}: the print() function serves as an output statement in Python.
+\end{itemize}
+
+
+
+
+    
+\end{frame}
+
+
+
+\begin{frame}{Indexing and slicing in Python}
+    objects in Python can be non-sliceable or sliceable. \textbf{Sliceable objects}---as strings, lists, tuples,arrays, dataframes, etc--- are objects containing \textit{indexed elements}---as cells in an array, elements in a list, columns/rows in a dataframe.
+
+   \textbf{ Caution: indexing in Python starts with zero!!!}
+   \begin{itemize}
+       \item 	First element [0], second element[1], nth element [n-1].
+       \item In a "2-D" object: [0,:] first set of elements, like the first row in an array or a dataframe. [0,0] first element---first row, first column. [:,0] first column.
+       
+       \item To recover last elements we use the minus: last elment[-1], previous last element [-2], [:,-1] entire last column.
+       \item \textbf{Slicing}: to recover closed intervals $[i,i+n]$ on $x$ we use the syntax $x[i-1:i+n]$.	From the 2th to the 4th element: [1:4]. From the 4th element to the last one [3:]. Last 2 rows, first three columns [-2:, 0:3]
+   \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Python works with identation}
+
+\begin{itemize}
+    \item Python uses \textbf{whitespace }and \textbf{indentation} to construct the \textbf{code structure}. Thus, identation is the equivalent to the curly brackets \{\} in Stata, R, and other programs.
+    \item Identation helps preserve the order and readiness of the code. Identation also makes it faster to write codes and avoid missing \} or \{.
+    \item \textbf{Sypder has automated identation}. You should use the tab whenever you want to indent (each tab one indent).
+\end{itemize}
+    
+    
+
+
+ 
+\end{frame}
+
+ \begin{frame}{Blocks of code}
+Identation rules to indicate blocks of code.
+\begin{itemize}
+    \item Use the colon : to start a block and press Enter.
+    \item All the lines in a block must use the \textbf{same indentation}, either 4 space or a tab.
+    \item A block can have \textbf{inner blocks} with next-level indentation.
+\end{itemize}
+
+
+
+\end{frame}
+
+
+\begin{frame}{Frame Title}
+    
+\begin{example}
+\text{Compute the mean of a matrix  $ A=  \begin{bmatrix} 1 & 0 & 1 \\ 0 & 0 & 1 \end{bmatrix} $}
+\begin{minted}{python}
+# Import NumPy library to work with matrices/arrays.
+import numpy as np 
+A = np.array([[0,1,0],[0,1,1]])  #create the 2-D array---i.e. matrix
+# Procedural approach. We call np.mean function to act on A data.
+ np.mean(A)  
+ 0.5
+# OOP approach. We call the array-method mean to act on the array-object A.
+ A.mean()  
+ 0.5
+\end{minted}
+
+
+\end{example}
+
+\end{frame}
+
+
+
+\end{document}
