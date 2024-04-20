@@ -1,6 +1,6 @@
-# Programming for Economics, 1st part---econ10106, the University of Edinburgh.
+# Programming and Numerical Methods for Economics (block 1), the University of Edinburgh.
  ## Description
-Undergraduate course on programming and numerical methods for economics. All this part of the course is taught in Python.
+Undergraduate course on programming and numerical methods for economics. The first block of the course is taught in Python. The second block of the course is taught in Julia by Jacob Adenbaum.
  
  ## Syllabus
  - Lecture 1: Introduction to Programming
@@ -14,9 +14,11 @@ Undergraduate course on programming and numerical methods for economics. All thi
  ## Acknowledgments
 These lecture notes greatly benefited from the Quantecon site, NumEconCopenhagen course, lecture notes from Raül Santaeulàlia-Llopis, and lecture notes from Michael Creel. All errors are mine. Any feedback will be greatly appreciated.
 
-## Problem Sets
-Problem sets in .pdf and with their solutions in a python notebook. Only available for a short period while the course is taking place. Outside of this period, the files can be shared upon request.
+## Exercises
+I created a list of all the exercises for this part of the course in case students or other instructors find it useful. I can share the solutions upon request.
 
 ## Author
 Albert Rodriguez-Sala
 albert.rodriguez@ed.ac.uk
+
+
