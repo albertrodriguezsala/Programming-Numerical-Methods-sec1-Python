@@ -1,8 +1,8 @@
-# Programming and Numerical Methods for Economics (block 1), the University of Edinburgh.
+# Programming and Numerical Methods for Economics (block 1)
  ## Description
-Undergraduate course on programming and numerical methods for economics. The first block of the course is taught in Python. The second block of the course is taught in Julia by Jacob Adenbaum.
+Undergraduate course on programming and numerical methods for economics at the University of Edinburgh. The first block of the course is taught in Python. The second block of the course is taught in Julia by Jacob Adenbaum.
  
- ## Syllabus
+ ## Syllabus (1st block)
  - Lecture 1: Introduction to Programming
  - Lecture 2: Fundamentals of Programming
  - Lecture 3: Data Manipulation and Data Analysis
